@@ -6,3 +6,12 @@ Content-Type: application/json
    "usuario": "mmore",
    "pass": "mmore"
 }
+
+### Login
+POST http://192.168.161.172:5000/api/login
+Content-Type: application/json
+
+{
+   "usuario": "mmore",
+   "pass": "mmor"
+}
